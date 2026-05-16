@@ -1,0 +1,194 @@
+---
+title: "Chapter 24: Aminoglycosides"
+author:
+  - name: Thomas P. Lodise
+  - name: Manjunath P. Pai
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+bibliography: references.bib
+---
+
+::: {.callout-note title="Short View Summary"}
+- **Usual intravenous (IV) adult dose for gram-negative infections:** 5–7 mg/kg every 24 hours for gentamicin and tobramycin; 15 mg/kg for plazomicin; and 20–30 mg/kg every 24 hours for amikacin
+- **Usual dose for synergy against gram-positive infections:** 3 mg/kg/day gentamicin every 8, 12, or 24 hours
+- **Dose reductions required** in patients with chronic kidney disease and acute kidney injury (AKI) or dysfunction
+- **The plasma concentration–time curve to minimum inhibitory concentration (AUC/MIC) ratio** is the pharmacokinetic/pharmacodynamic parameter most closely linked to bacterial killing and efficacy
+- **Therapeutic drug monitoring:** not always necessary for brief administration (≤3 days); trough concentrations should be unmeasurable; typically, two serum concentrations in postdistribution phase (≥1 hour after administration, separated by ≥1.5 half-lives)
+- **Cerebrospinal fluid penetration:** low
+- **Common adverse effects:** AKI, ototoxicity
+- **Genotyping** for the mitochondrial genome variant in *MT-RNR1*, m.1555A>G can help avoid use of aminoglycosides and prevent ototoxicity
+- **Drug-drug interactions:** increased acute kidney risk with concomitant amphotericin B, cisplatin, cyclosporine, foscarnet, furosemide, IV radiocontrast agents, methoxyflurane, polymyxins, and vancomycin
+- **Indications:** sepsis/septic shock; hospital-acquired/ventilator-associated pneumonia; complicated intraabdominal infections; urinary tract infections; neutropenic fever; acute exacerbation of pulmonary disease (cystic fibrosis patients only); bloodstream infections/IV catheter-related infections; infective endocarditis; multidrug-resistant tuberculosis; select nontuberculous mycobacterial infections; zoonotic infections (i.e., brucellosis, chronic forms of bartonellosis, tularemia, and yersiniosis); febrile neutropenia; surgical prophylaxis for patients undergoing genitourinary, gastrointestinal, or colorectal procedures; orthopedic surgery (antibiotic-impregnated cement); ocular infections (topical preparations); sexually transmitted infections; and select protozoal infections (e.g., amebiasis and cutaneous leishmaniasis)
+:::
+
+## Introduction and History
+
+Aminoglycoside antibiotics have been used since the 1940s, when systematic screening of soil actinomycetes for the elaboration of antimicrobial substances yielded streptomycin. Produced by a species of *Streptomyces* (*S. grisius*), it was the first antibiotic in the aminoglycoside family (@tbl-aminoglycoside-family) to be derived, directly or indirectly, from *Streptomyces* spp. (aminoglycosides with names ending in -mycin) or from *Micromonospora* spp. (aminoglycosides with names ending in -micin). Neomycin, kanamycin, and gentamicin are fermentation products with two or three chemical constituents. Amikacin, netilmicin, and others are semisynthetic derivatives of the natural product. Plazomicin is a semisynthetic aminoglycoside derived from sisomicin [@Wright1998]. All aminoglycosides share similar physical, chemical, and pharmacologic properties. Four compounds—amikacin, gentamicin, tobramycin, and plazomicin—are currently approved by the US Food and Drug Administration (FDA) for the treatment of serious infections due to gram-negative or gram-positive bacteria [@Craig2003; @Edson1991].
+
+## Mechanism of Action
+
+The advantages of the aminoglycoside class include rapid bactericidal activity, presence of a postantibiotic effect (PAE), synergy when combined with certain antibiotics, and well-defined pharmacokinetic (PK) profiles [@Hancock1981; @Lortholary1995]. As polycationic molecules, aminoglycosides bind to anionic compounds on the cell membrane, such as lipopolysaccharides (LPS), and displace outer membrane divalent cations, leading to increased permeability of the membrane and uptake of aminoglycosides (i.e., self-promoted uptake). Displacement of outer membrane divalent cations by aminoglycosides also compromises the integrity of the cell wall, and it is postulated that this contributes to the observed bactericidal action of aminoglycosides [@Mingeot-Leclercq1999; @Krause2016].
+
+After entering the cell, aminoglycosides bind to the 30S component of the prokaryotic ribosome [@Fourmy1996]. Affinity for the ribosomal target contributes to the rapid bactericidal action of aminoglycosides [@Fourmy1996; @Moore1987]. Aminoglycoside activity is pH-dependent and is inhibited in acidic environments [@Hancock1981]. In vitro studies have shown that aminoglycosides have a prolonged PAE, during which bacterial growth is suppressed for a further 3 to 8 hours after drug concentrations fall below the minimum inhibitory concentration (MIC) [@Hancock1981; @Zhanel1991; @Lortholary1995; @Zhanel1992].
+
+![Chemical structures of aminoglycosides and spectinomycin, grouped by structural subtypes based on their aminocyclitol core rings.](images/fig-006.png){#fig-structures}
+
+Aminoglycosides are highly synergic with cell wall–active drugs (i.e., β-lactams or glycopeptides) in vitro. In preclinical pharmacokinetic/pharmacodynamic (PK/PD) infection models, concomitant use of an aminoglycoside with a β-lactam often enhances bacterial killing and prevents regrowth and resistance emergence to both the aminoglycoside and companion β-lactam [@Bliziotis2005; @Davis1999].
+
+### PK/PD Parameters
+
+The ratio of the maximum plasma drug concentration to the MIC (C~max~/MIC) ratio has long been considered the PK/PD driver for aminoglycosides, but more recent evidence suggest the area under the plasma concentration–time curve to MIC (AUC/MIC) ratio is the PK/PD parameter most closely linked to bacterial killing and efficacy [@Deziel2006; @Drusano2007; @Kashuba1999; @Nicolau2006; @Ambrose2007; @Craig2003a].
+
+![Correlation between PK/PD indices and change in bacterial load. The scatter plots show 24-hr AUC/MIC, Peak/MIC, and % Time>MIC relationships with CFU changes in neutropenic mice.](images/fig-008.png){#fig-pkpd}
+
+## Spectrum of Activity
+
+Aminoglycosides are active in vitro against both gram-positive and gram-negative pathogens, but they are primarily recommended for use in combination therapy for most infections [@Moellering1983; @Gilbert2009]. Three legacy aminoglycosides—amikacin, gentamicin, and tobramycin—are broadly active against *Staphylococcus* spp. (primarily gentamicin) and gram-negative bacteria including *Pseudomonas* spp. (primarily amikacin and tobramycin), *Citrobacter* spp., *Enterobacter* spp., *Escherichia coli*, *Klebsiella* spp., *Proteus* spp., and *Serratia* spp. [@Craig2003; @Edson1991].
+
+Plazomicin, a newly approved aminoglycoside, is highly active in vitro against *Staphylococcus aureus*, including methicillin-resistant (MRSA) strains, and most Enterobacterales, including carbapenem-resistant Enterobacterales (CRE) and strains resistant to ≥1 aminoglycosides [@Edson1991; @Castanheira2018; @Clark2019]. Some aminoglycosides have useful activity against mycobacteria, paromomycin has activity against selected colonic protozoan pathogens, and spectinomycin, a related antibiotic, has activity against *Neisseria gonorrhoeae* [@Sharma2011; @Sundar2007; @Stamm1983; @White2015].
+
+## Family of Aminoglycosides in Clinical Use {#sec-family}
+
+| Generic Name | Proprietary Name | Source | Year Reported | Chemistry |
+|--------------|------------------|--------|---------------|-----------|
+| Streptomycin | None | *Streptomyces griseus* | 1944 | Unique central aminocyclitol ring |
+| Neomycin | Mycifradin, Neobiotic | *Streptomyces fradiae* | 1949 | Roughly equal proportions of neomycin B and C |
+| Kanamycin | Kantrex | *Streptomyces kanamyceticus* | 1957 | Mixture of 95% kanamycin A and 5% kanamycin B |
+| Paromomycin | Humatin | *S. fradiae* | 1959 | Part of neomycin family |
+| Spectinomycin | Trobicin | *Streptomyces spectabilis* | 1961 | Chemically distinct but closely related to aminoglycosides |
+| Gentamicin | Garamycin | *Micromonospora purpurea* and *Micromonospora echinospora* | 1963 | Roughly equal proportions of gentamicin C~1~, C~1a~, and enantiomers C~2~ and C~2a~ |
+| Tobramycin | Nebcin | *Streptomyces tenebrarius* | 1967 | Natural 3′-deoxy derivative of kanamycin B |
+| Sisomicin^a^ | Siseptin | *Micromonospora inyoensis* | 1970 | Dehydro analogue of gentamicin C1a |
+| Dibekacin^a,b^ | — | *S. kanamyceticus* | 1971 | Dideoxy derivative of kanamycin B |
+| Amikacin^b^ | Amikin | *S. kanamyceticus* | 1972 | Semisynthetic derivative of kanamycin A |
+| Netilmicin^b^ | Netromycin | *M. inyoensis* | 1975 | *N*-Ethyl derivative of sisomicin |
+| Isepamicin^a,b^ | — | *M. purpurea* | 1978 | 1-*N*-S-α-Hydroxy B amino propionyl derivative of gentamicin B |
+| Plazomicin | Zemdri | *M. inyoensis* | 2018 | Semisynthetic derivative of sisomicin |
+
+: Family of aminoglycosides in clinical use {#tbl-aminoglycoside-family}
+
+^a^ Approved for human use in countries other than the United States.
+^b^ Semisynthetic aminoglycosides.
+
+*Modified from Wright GD, Berghuis AM, Mobashery S. Aminoglycoside antibiotics: structures, functions, and resistance. In: Rosen BP, Mobashery S, eds. Resolving the Antibiotic Paradox: Progress in Understanding Drug Resistance and Development of New Antibiotics. New York: Plenum; 1998.*
+
+## Adverse Effects
+
+Although aminoglycosides are effective at bacterial cell killing and have a low potential for allergic reactions, their mechanism of action can also increase the potential for certain toxicities [@Selimoglu2007; @Mingeot-Leclercq1999; @Wargo2006; @Rybak2008].
+
+### Nephrotoxicity
+
+The affinity of aminoglycosides for receptors on the proximal renal tubular epithelial cells can lead to acute kidney injury (AKI) [@Lortholary1995].
+
+### Ototoxicity
+
+Ototoxicity (cochlear and vestibular) and, rarely, neuromuscular blockade are potential aminoglycoside-related side effects [@Fourmy1996; @Moore1987; @Munckhof1996].
+
+::: {.callout-warning title="Clinical Pearl"}
+Since the mid-1990s, clinicians have generally adopted weight-based, extended-interval short-course dosing strategies for aminoglycosides, which have been shown to reduce nephrotoxicity while maintaining efficacy and not increasing the occurrence of ototoxicity [@Hancock1981; @Moore1987; @Ali1997; @Rybak2008].
+:::
+
+### Genetic Risk for Ototoxicity
+
+Point-of-care genotyping technology has recently been tested in neonates as a potential screening tool to avoid ototoxicity associated with a mitochondrial genome variant in *MT-RNR1*, m.1555A>G [@Bitner-Glindzicz2009; @Prezant1993].
+
+## Current Clinical Use
+
+Amid concerns about toxicity (particularly irreversible vestibular injury), the use of aminoglycosides began to decline in the 1980s in favor of newer antibiotic classes such as fluoroquinolones, which were perceived to be less toxic [@Fourmy1996]. The 2021 National Safety Network Antimicrobial Use Option Report indicates that amikacin, tobramycin, and gentamicin account for 1% to 2% and 2% to 10% of adult and pediatric antibiotic prescriptions in the inpatient setting, respectively [@NHSN2021].
+
+However, the increasing prevalence of multidrug-resistant (MDR) gram-negative pathogens, including CRE, *Pseudomonas aeruginosa*, and *Acinetobacter* spp., and nontuberculous mycobacteria—for which therapeutic options are limited—has led to renewed interest in aminoglycosides for use as monotherapy or in combination with other antibacterials [@Hancock1981; @Stamm1983; @Standiford1973; @Rybak2008; @Tamma2022].
+
+Although most studies have failed to demonstrate improved outcomes in patients treated with antibiotic combinations with an aminoglycoside relative to monotherapy [@Bliziotis2005; @Paul2006], patients with septic shock receiving combinations including aminoglycosides in hospital settings where aminoglycoside resistance rates are low have had improved outcomes [@Bowers2010; @Kumar2010; @Paul2010].
+
+## Inhaled Aminoglycosides
+
+### Cystic Fibrosis
+
+The Cochrane Library Review analyzed outcomes between inhaled aminoglycosides and placebo with regards to treatment-related adverse events of interest (i.e., auditory impairment, pneumothorax, and hemoptysis). However, tinnitus and voice alteration were significantly more common in individuals who received inhaled aminoglycosides [@Langton2018].
+
+No clinically meaningful differences in outcomes, resistance emergence, and safety were observed in studies that compared the long-term use of different inhalational formulations of aminoglycosides (i.e., tobramycin inhalation powder, tobramycin for inhalation solution [TOBI], inhaled tobramycin [intravenous preparation], and amikacin liposome inhalation suspension) in individuals with cystic fibrosis [@Langton2018].
+
+### Hospital-Acquired/Ventilator-Associated Pneumonia
+
+Aerosolized aminoglycosides have shown promise in chronic bronchiectatic infections but none are presently approved by the FDA for this indication [@MacLean2011; @Niederman2020; @Kollef2012; @Palmer2011]. Aerosolized aminoglycosides also are regularly used in patients with VAP but none is approved for use for this indication. Despite the lack of FDA approval, the HAP/VAP expert guidelines recommend use of aerosolized aminoglycosides or colistin, in combination with systemic agents, for patients with HAP/VAP caused by gram-negative organisms only susceptible to aminoglycosides or polymyxins [@Moellering1983].
+
+A meta-analysis presented in the IDSA/ATS guidelines identified a significant improvement in clinical cure rate with the addition of inhaled antibiotics for the treatment of MDR pathogens, though no differences in mortality were identified. In contrast, the IDSA Guidance on the Treatment of Antimicrobial Resistant Gram-Negative Infections panel does not suggest the use of nebulized antibiotics for the treatment of respiratory infections caused by resistant gram-negative pathogens due to the lack of benefit observed in clinical trials, concerns regarding unequal distribution in infected lungs [@Bassetti2019], and concerns for respiratory complications such as bronchoconstriction in patients receiving aerosolized antibiotics [@Tamma2022; @Burgess2022].
+
+### NTM Pulmonary Disease
+
+There are mounting data with inhaled amikacin (parenteral formulation or liposome inhalation suspension) for multidrug regimen for NTM pulmonary disease. However, inhaled amikacin is currently not recommended for inclusion in the initial regimen at this time, and its use should be reserved to patients with MAC pulmonary disease who have failed therapy after at least 6 months of guideline-based therapy [@Sharma2011].
+
+## Prophylaxis
+
+Clinical practice guidelines for antimicrobial prophylaxis in surgery suggest gentamicin or tobramycin, 5 mg/kg IV, as an alternative in patients with β-lactam allergy undergoing genitourinary and gastrointestinal procedures [@Bratzler2013]. For patients undergoing cardiac or vascular surgeries or those with valvular heart disease, prophylaxis with an aminoglycoside is no longer recommended. For patients undergoing colorectal procedures, a mechanical bowel preparation combined with oral neomycin sulfate plus oral erythromycin base or with oral neomycin sulfate plus oral metronidazole is often used with IV prophylaxis [@Bratzler2013].
+
+The risk of infection after elective colorectal procedures was significantly reduced by mechanical cleansing of the bowel plus oral administration of neomycin and erythromycin or metronidazole in addition to standard intravenous antibiotic prophylaxis in controlled trials [@Cannon2012; @Morris2015].
+
+A controlled trial demonstrated that an oral selective digestive decontamination containing gentamicin effectively eradicated carbapenem-resistant *K. pneumoniae* gastrointestinal carriage [@Stoma2018] and may be used in nosocomial outbreaks [@Tacconelli2019].
+
+The safety and efficacy of topical gentamicin in cardiac surgery have not been clearly established [@ASHP2013]. Multiple tunneled-catheter antibiotic lock studies including a prospective randomized trial [@Drosu2013] have demonstrated reduced catheter-related infections, but emergence of resistant pathogens remains a concern [@Drosu2014].
+
+## Aminoglycosides in Orthopedic Surgery
+
+Antibiotic-impregnated cement is used with increasing frequency in primary hip and knee arthroplasties and revision procedures of infected total joint arthroplasties, for which the FDA has approved premixed aminoglycoside in bone cement products [@McConoughey2014]. Incorporation of larger amounts of antibiotic, usually gentamicin or tobramycin, allows release of higher drug concentrations but may adversely affect mechanical properties. Concentrations and properties vary among producers [@Anagnostakos2020; @Buchholz1984; @Hendriks2004; @Neut2001; @Penner1996].
+
+Persistence of bacterial growth as adherent biofilms remains a potential problem [@Lewis2019; @Anagnostakos2020; @Seldes2005], and AKI has been reported [@Winkler2000; @Curtis2005]. To date, one multicenter evaluation failed to show reduction in the risk of infection [@Parvizi2008]. Additionally, a review of 20 mostly uncontrolled reports of antibiotic-containing spacers did not allow evaluation of whether such adjunctive therapy provided additional benefits to systemic antibiotic therapy [@Barth2010]. Prospective trials in aminoglycoside-containing beads for established osteomyelitis and prosthetic joint–associated infections are needed [@Gogia2009].
+
+## Other Clinical Uses
+
+Aminoglycosides are commercially available as topical ophthalmic preparations (e.g., ointments or suspensions) and are frequently used, alone and in combination, to treat patients with ocular infections [@Perez2015]. Oral paromomycin has been employed as an alternative therapy for infection caused by *Entamoeba histolytica* and ulcerative *Leishmania major* [@Gilles1971; @Chunge1985; @Alvar2006; @ElOn1986].
+
+Intravesicular gentamicin has been investigated, with anecdotal success, for recurrent UTIs in intermittently catheterized patients [@Hachen1983]. Spectinomycin was an alternative agent used intramuscularly in the treatment of *N. gonorrhoeae* [@Moran1995], but it is no longer distributed in the United States. It was previously recommended for pregnant women, patients in areas with a high prevalence of fluoroquinolone resistance, and men who have sex with men. It showed 98% efficacy in uncomplicated urogenital and anogenital gonococcal infections but only 52% efficacy in gonococcal infections involving the pharynx, where it does not reach therapeutic concentrations [@Moran1995a]. Spectinomycin is also not effective in the treatment of infections with *Treponema pallidum* or *Chlamydia trachomatis*. Currently, spectinomycin is an alternative therapy for patients who are allergic to β-lactams and for patients who are infected with resistant strains of gonococci. Alternatively, gentamicin has been used to treat urogenital gonococcal infection [@CDC2021].
+
+## Individualized Aminoglycoside Dosing
+
+Aminoglycosides have traditionally been dosed on weight (mg/kg) and an estimate of the kidney function (eCrCL or eGFR) [@Deziel2006]. Suggested initial dosing regimens for typical aminoglycosides in clinical use are listed in Table 24.5. Higher initial doses of amikacin (20–30 mg/kg) have been suggested with further dose adjustment after therapeutic drug monitoring (TDM), but consensus is needed [@Drusano2019]. Given the age and generic status of this drug class, high-quality clinical studies are unfortunately unlikely to be performed to validate these doses apart from plazomicin, which is the most contemporary addition to the armamentarium [@Pai2019].
+
+However, the lack of alternate therapeutic agents for MDR gram-negative pathogens has led individual institutions to adopt these higher doses [@Roberts2014; @Cotta2015].
+
+### Dosing in Obesity
+
+One out of two adults in the United States will be obese by 2030, which impacts aminoglycoside dosing considerations [@Finkelstein2012]. Use of actual weight in obese patients can lead to overexposure [@Bauer2012]. To prevent this, the most common approach is to use adjusted body weight, which is ideal body weight plus 40% of the difference between actual and ideal body weight in obese patients [@Bauer2012]. The typical definition of obesity for this use of adjusted body weight is when actual weight exceeds ideal body weight by 25% to 30% or if the body mass index ≥30 kg/m^2^ [@Pai2012].
+
+More recent work indicates that lean body weight permits simplified aminoglycoside dosing across all weight strata, with clearance best predicted by the Chronic Kidney Disease Epidemiology Collaboration equation [@Pai2017; @Inker2012; @Smit2018]. However, most institutions rely on the Cockcroft-Gault equation to estimate clearance and to decide whether once-daily dosing is justifiable [@Deziel2006]. Use of TDM after the first dose permits individualization of the aminoglycoside dose [@Deziel2006].
+
+### Dosing in Renal Impairment
+
+In resource-poor settings where TDM may be unavailable or delayed, an estimate of kidney function will be more informative than weight to define the daily dose [@Pai2012]. As noted, aminoglycoside clearance is a close surrogate of the measured glomerular filtration rate. Creatinine clearance overestimates GFR by 10% to 15% as it includes tubular secretion (an elimination process not applicable to aminoglycosides). In contrast, use of the most contemporary GFR equations based on serum creatinine (or cystatin C when available) can be translated to an estimate of aminoglycoside clearance (CL) [@Inker2012].
+
+An AUC target exposure multiplied by this CL estimate approximates the daily dose that is necessary in the individual patient [@Pai2012]. Although this bedside approach is a "best guess," in the absence of resources to measure aminoglycoside concentrations, use of estimated kidney function is much better than body weight to estimate the daily dose.
+
+### Dosing in Dialysis
+
+In patients with kidney failure who require kidney replacement therapies such as dialysis, the dosing of aminoglycosides will depend on the characteristics of the dialysis membrane, duration of dialysis, the patient's blood pressure during dialysis, and other variables [@Heintz2009; @Sowinski1993; @Matzke1984]. Patients in sepsis who may be receiving continuous hemofiltration or dialysis the clearance of aminoglycosides is 80% to 90% of the effluent rate or equivalent to a CrCl of 10 to 50 mL/minute [@Sowinski1993; @Pinder2002].
+
+For patients on hemodialysis, a traditional dose is given every 48 to 72 hours, and on the day of hemodialysis an additional one-half of the full dose is given (if the traditional dose was administered before dialysis) after dialysis to replace drug that was removed by the dialysis or simply dosed after dialysis. Because of individual variability, serum levels should be measured [@Ariano1997; @Santre1995].
+
+Administration of high doses of aminoglycosides may be necessary for less susceptible gram-negative bacteria but theoretically increases the risk of ototoxicity and nephrotoxicity in patients with residual renal function. Administration of the dose during dialysis can allow for administration of higher doses (5 mg/kg) and improve the exposure profile compared with the traditional approach of postdialysis dosing [@Ariano1997; @Teigen2006].
+
+For patients undergoing continuous ambulatory peritoneal dialysis who have a systemic infection and are receiving an intravenous dose of aminoglycoside every 2 to 3 days, it is necessary to give small daily intravenous supplements to replace the drug lost in the dialysate or dosed based on serum concentrations. However, intermittent daily dosing (i.e., amikacin 2 mg/kg daily, gentamicin/netilmicin/tobramycin 0.6 mg/kg daily) of intraperitoneal aminoglycosides (1 exchange daily for at least 6 hours) is now favored over administration of intravenous administration as a measure to minimize toxicity and adaptive resistance while maintaining drug efficacy [@Warady2012].
+
+## Therapeutic Drug Monitoring Approach
+
+If therapy is expected to continue for ≥3 days and TDM is available, multiple possible approaches exist with varying levels of precision and complexity as ranked below (highest to lowest precision) that are resource dependent:
+
+1. Measurement of two concentrations and use of Bayesian software (software using two concentrations to gauge)
+2. Measurement of two concentrations and use of PK equations (linear, so calculate)
+3. Measurement of one concentration and use of Bayesian software
+4. Measurement of one concentration (random) and use of a dosing nomogram
+5. Measurement of two concentrations and interpretation using concentration thresholds (trough and peak)
+6. Measurement of one concentration (peak or trough) and interpretation using concentration thresholds
+
+It is unclear whether every patient administered an aminoglycoside requires an individual PK evaluation [@Bailey2013], but some patient populations may benefit more from TDM than others.
+
+::: {.callout-tip title="TDM Recommendations"}
+Trough concentrations should be unmeasurable (<1 mg/L for gentamicin/tobramycin; <5 mg/L for amikacin). When measuring two concentrations, they should be in the postdistribution phase (≥1 hour after administration) and separated by ≥1.5 half-lives for accurate parameter estimation.
+:::
+
+## References
+
+::: {#refs}
+:::
