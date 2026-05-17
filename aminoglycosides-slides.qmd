@@ -82,7 +82,7 @@ This is a comprehensive 1-hour lecture on aminoglycosides. We'll cover history, 
 
 ------------------------------------------------------------------------
 
-# PART 1: Fundamentals {background-color="#2c3e50"}
+# PART 1: Fundamentals {background-color="#b20e10"}
 
 ------------------------------------------------------------------------
 
@@ -397,7 +397,7 @@ The synergy is particularly important for enterococcal infections where neither 
 
 ------------------------------------------------------------------------
 
-# PART 2: Clinical Application {background-color="#2c3e50"}
+# PART 2: Clinical Application {background-color="#b20e10"}
 
 ------------------------------------------------------------------------
 
@@ -583,7 +583,7 @@ The role of empiric aminoglycosides has diminished with broader-spectrum β-lact
 
 ------------------------------------------------------------------------
 
-# Dosing Strategies {background-color="#27ae60"}
+# Dosing Strategies {background-color="#b20e10"}
 
 ------------------------------------------------------------------------
 
@@ -787,7 +787,7 @@ CRRT provides continuous, slower drug removal compared to intermittent HD. Clear
 
 ------------------------------------------------------------------------
 
-# Adverse Effects {background-color="#c0392b"}
+# Adverse Effects {background-color="#b20e10"}
 
 ------------------------------------------------------------------------
 
@@ -1010,7 +1010,7 @@ The vancomycin combination deserves special attention - it's extremely common an
 
 ------------------------------------------------------------------------
 
-# Therapeutic Drug Monitoring {background-color="#8e44ad"}
+# Therapeutic Drug Monitoring {background-color="#b20e10"}
 
 ------------------------------------------------------------------------
 
@@ -1161,7 +1161,7 @@ This is a practical workflow for most patients. The key is not to wait too long 
 
 ------------------------------------------------------------------------
 
-# Clinical Scenarios {background-color="#16a085"}
+# Clinical Scenarios {background-color="#b20e10"}
 
 ------------------------------------------------------------------------
 
