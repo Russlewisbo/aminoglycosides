@@ -20,7 +20,7 @@ lightbox: true
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Aminoglycosides {background-color="#b20e10"}
+## Aminoglycosides {background-color="#b20e10" background-video="images-aminoglycoside/bacteria.mp4" background-video-loop="true" background-video-muted="true" background-opacity="0.5"}
 
 <br>
 
@@ -30,7 +30,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 **Russell E. Lewis** <br> Associate Professor of Infectious Diseases <br>
 
-![](images-aminoglycoside/DMM_newlogo.png){fig-align="center" width="250"}
+![](images-aminoglycoside/DMM_newlogo.png){fig-align="center" width="350"}
 
 <br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} [https://github.com/Russlewisbo](https://github.com/Russlewisbo/ESCMID_2022_talk) <br> Slides and course materials: [www.idpadova.com](https://padovaid.com/)
 
@@ -53,8 +53,8 @@ By the end of this lecture, you will be able to:
 
 <br>
 
-::::: {.columns style="justify-content: center; gap: 4rem;"}
-::: {.column width="40%"}
+::::: {style="display: flex; justify-content: center; gap: 4rem;"}
+::: {style="width: 35%;"}
 **Part 1: Fundamentals**
 
 - History & discovery
@@ -63,7 +63,7 @@ By the end of this lecture, you will be able to:
 - PK/PD principles
 :::
 
-::: {.column width="40%"}
+::: {style="width: 35%;"}
 **Part 2: Clinical application**
 
 - Spectrum & Resistance
@@ -98,17 +98,25 @@ Streptomycin was discovered by Selman Waksman's group at Rutgers through systema
 
 <br>
 
+::::: columns
+::: {.column width="50%"}
 - **1943-1944:** Selman Waksman's laboratory at Rutgers
 - Systematic screening of soil actinomycetes
 - Isolated from *Streptomyces griseus*
 - First effective treatment for tuberculosis
-- Ringo Starr (Beatles drummer) among first treated patients
+- Ringo Starr (Beatles drummer) among first treated patients!
 - Waksman awarded Nobel Prize (1952)
 
 "The grueling search through 10,000 soil samples yielded streptomycin"
+:::
+
+::: {.column width="50%"}
+![](images-aminoglycoside/Wakesman.png){fig-align="center"}
+:::
+:::::
 
 ::: aside
-The discovery process was methodical - testing thousands of soil samples for antimicrobial activity. This approach led to the "golden age" of antibiotic discovery.
+The discovery process was methodical - testing thousands of soil samples for antimicrobial activity. <br>This approach led to the "golden age" of antibiotic discovery.
 :::
 
 ## Nomenclature convention
@@ -125,7 +133,7 @@ The discovery process was methodical - testing thousands of soil samples for ant
 - Derived from *Micromonospora* species
 - Examples: Gentamicin, Sisomicin, Plazomicin
 
-::: notes
+::: aside
 This naming convention is useful for remembering the source organism. Both genera are soil actinomycetes.
 :::
 
@@ -139,6 +147,8 @@ This naming convention is useful for remembering the source organism. Both gener
 | **Tobramycin** | 1967 | *Pseudomonas*, CF                 |
 | **Amikacin**   | 1972 | Resistant gram-negatives, TB      |
 | **Plazomicin** | 2018 | CRE, MDR organisms                |
+
+<br> <br>
 
 Streptomycin: Limited availability (TB, plague, tularemia)
 
@@ -187,7 +197,7 @@ All aminoglycosides contain an aminocyclitol ring (streptidine or 2-deoxystrepta
 - Gentamicin, Sisomicin, Plazomicin
 
 ::: aside
-The 4,6-disubstituted compounds are most clinically relevant today. Understanding structure helps predict which resistance mechanisms will affect which drugs.
+The 4,6-disubstituted compounds are most clinically relevant today. <br> Understanding structure helps predict which resistance mechanisms will affect which drugs.
 :::
 
 ## Key chemical properties
@@ -212,7 +222,7 @@ The polycationic nature is critical for both mechanism of action (binding to bac
 
 ## Aminoglycosides:MOA
 
-![](images-aminoglycoside/amino_MOA.png){fig-align="center" width="700"}
+![](images-aminoglycoside/amino_MOA.png){fig-align="center" width="800"}
 
 ## Why aminoglycosides are bactericidal
 
@@ -227,27 +237,25 @@ The polycationic nature is critical for both mechanism of action (binding to bac
 | Macrolides      | 50S    | Bacteriostatic   |
 | Linezolid       | 50S    | Bacteriostatic   |
 
+<br>
+
 **Reason:** Mistranslated membrane proteins cause irreversible damage
 
-::: notes
+::: aside
 Most ribosomal inhibitors simply stop protein synthesis (bacteriostatic). Aminoglycosides cause the synthesis of actively harmful proteins, leading to rapid cell death.
 :::
 
-------------------------------------------------------------------------
-
-## Concentration-Dependent Killing
+## Concentration-dependent killing
 
 <br>
 
-![PK/PD relationship showing concentration-dependent bacterial killing](images/fig-008.png){width="90%"}
+![](images-aminoglycoside/aminoglycoside_PKPD.png){fig-align="center"}
 
 Higher peak concentrations = Greater bacterial kill
 
-::: notes
-The left panel shows AUC/MIC correlation, middle shows Peak/MIC, right shows Time\>MIC. Note the strongest correlation is with AUC/MIC, though Peak/MIC also shows good correlation. Time\>MIC is least predictive.
+::: aside
+The left panel shows AUC/MIC correlation, middle shows Peak/MIC, right shows Time\>MIC. Note the strongest correlation is with AUC/MIC, though Peak/MIC also shows good correlation. Time\>MIC is least predictive.[@craigOptimizingAminoglycosideUse2011]
 :::
-
-------------------------------------------------------------------------
 
 ## Post-Antibiotic Effect (PAE)
 
@@ -259,19 +267,19 @@ The left panel shows AUC/MIC correlation, middle shows Peak/MIC, right shows Tim
 
 **Clinical implication:** Supports extended-interval dosing
 
+<br>
+
 | Organism        | Approximate PAE |
 |-----------------|-----------------|
 | *E. coli*       | 2-4 hours       |
 | *P. aeruginosa* | 2-6 hours       |
 | *S. aureus*     | 3-6 hours       |
 
-::: notes
+::: aside
 The PAE is thought to result from persistent ribosomal binding and the time required to synthesize new ribosomes. Combined with concentration-dependent killing, this supports giving larger doses less frequently.
 :::
 
-------------------------------------------------------------------------
-
-## PK/PD Target Parameters
+## PK/PD target parameters
 
 <br>
 
@@ -290,41 +298,29 @@ The PAE is thought to result from persistent ribosomal binding and the time requ
 - Target peak: 56-64 mg/L (amikacin)
 - Target trough: **Undetectable** (\< 1 mg/L)
 
-::: notes
+::: aside
 The shift from Cmax/MIC to AUC/MIC represents evolving understanding. In practice, we still use peak/trough monitoring because AUC calculation requires multiple levels. Undetectable troughs minimize toxicity.
 :::
 
-------------------------------------------------------------------------
+## Monitoring: Hartford nomogram
+
+![](images-aminoglycoside/nomogram.png){fig-align="center" width="700"}
+
+::: aside
+Monitoring: Draw a single level 6-14 hours after the initial dose. Fit the result onto the nomogram below to confirm (or modify) the chosen dosage interval. IMPORTANT: The y-axis is only valid for a 7 mg/kg dose of gentamicin or tobramycin. If a different dose was used, such as 5 mg/kg, then the measured concentration must be multiplied by 7/5 to use the nomogram. If amikacin 15 mg/kg was used, the measured concentration must be halved to use the nomogram.
+:::
 
 ## Synergy with β-Lactams
 
-<br>
+![](images-aminoglycoside/synergy_aminoglycosides.png){fig-align="center" width="700"}
 
-**Mechanism:**
-
-1.  β-lactam damages cell wall
-2.  Increased aminoglycoside penetration
-3.  Enhanced ribosomal binding
-4.  Accelerated killing
-
-**Clinical applications:**
-
-- Enterococcal endocarditis
-- *Staphylococcus aureus* endocarditis
-- Severe *Pseudomonas* infections
-- Neutropenic fever (empiric therapy)
-
-::: notes
-The synergy is particularly important for enterococcal infections where neither drug alone is bactericidal. Cell wall damage by ampicillin allows gentamicin access to the ribosome.
+::: aside
+The synergy is particularly important for enterococcal infections where neither drug alone is bactericidal. Cell wall damage by ampicillin allows gentamicin access to the ribosome. **Use of aminoglycosides for synergy with anti-staphylococal PCNs increasingly replaced by** dual β-lactam strategies (cefazolin + ceftriaxone, cefazolin + ertapenem, oxacillin + ertapenem) → "seesaw effect" and differential penicillin protein binding.
 :::
-
-------------------------------------------------------------------------
 
 # PART 2: Clinical Application {background-color="#b20e10"}
 
-------------------------------------------------------------------------
-
-## Spectrum of Activity: Overview
+## Spectrum of activity: Overview
 
 <br>
 
@@ -348,13 +344,11 @@ The synergy is particularly important for enterococcal infections where neither 
 :::
 :::::
 
-::: notes
+::: aside
 The spectrum is primarily aerobic gram-negatives. Activity against gram-positives is mainly for synergistic killing in combination with cell wall-active agents.
 :::
 
-------------------------------------------------------------------------
-
-## Agent Selection by Organism
+## Agent selection by organism
 
 <br>
 
@@ -368,13 +362,11 @@ The spectrum is primarily aerobic gram-negatives. Activity against gram-positive
 | Enterococci (synergy)    | Gentamicin              |
 | *M. tuberculosis*        | Streptomycin, Amikacin  |
 
-::: notes
+::: aside
 Tobramycin has slightly better antipseudomonal activity. Amikacin is reserved for resistant organisms due to its stability against many modifying enzymes. Plazomicin was designed specifically to overcome resistance.
 :::
 
-------------------------------------------------------------------------
-
-## Plazomicin: Overcoming Resistance
+## Plazomicin: Overcoming resistance
 
 <br>
 
@@ -394,38 +386,23 @@ Tobramycin has slightly better antipseudomonal activity. Amikacin is reserved fo
 - Inactivated by 16S rRNA methyltransferases
 - More expensive than legacy agents
 
-::: notes
+::: aside
 Plazomicin has strategic modifications at positions typically targeted by AMEs. However, 16S methyltransferases (like ArmA) confer high-level resistance to ALL aminoglycosides including plazomicin.
 :::
 
-------------------------------------------------------------------------
+## Resistance mechanisms
 
-## Resistance Mechanisms
+![](images-aminoglycoside/AG_resistance mechanism.png){fig-align="center" width="800"}
 
-<br>
+<br> <br> 
 
-**1. Aminoglycoside-Modifying Enzymes (AMEs)**
-
-- Acetyltransferases (AAC)
-- Phosphotransferases (APH)
-- Nucleotidyltransferases (ANT)
-
-**2. 16S rRNA Methyltransferases**
-
-- ArmA, RmtA-H
-- Confer pan-aminoglycoside resistance
-
-**3. Efflux Pumps**
-
-- MexXY-OprM in *P. aeruginosa*
-
-::: notes
+::: aside
 AMEs are most common and typically affect specific agents based on the modification site. Methyltransferases are concerning because they confer resistance to ALL aminoglycosides. Often plasmid-mediated and associated with carbapenemases.
 :::
 
-------------------------------------------------------------------------
 
-## Clinical Indications
+
+## Clinical indications
 
 <br>
 
@@ -438,13 +415,13 @@ AMEs are most common and typically affect specific agents based on the modificat
 - Neutropenic fever
 - Infective endocarditis
 
-::: notes
+::: aside
 Aminoglycosides are rarely used as monotherapy except for uncomplicated UTI. The combination provides broader coverage, synergy, and helps prevent resistance emergence.
 :::
 
-------------------------------------------------------------------------
 
-## Additional Clinical Uses
+
+## Additional clinical uses
 
 <br>
 
@@ -456,13 +433,12 @@ Aminoglycosides are rarely used as monotherapy except for uncomplicated UTI. The
 - **Cystic fibrosis** (inhaled tobramycin)
 - **Selective digestive decontamination**
 
-::: notes
+::: aside
 These represent niche uses where aminoglycosides have specific advantages. Inhaled therapy achieves high lung concentrations with minimal systemic exposure. Antibiotic cement provides local prophylaxis.
 :::
 
-------------------------------------------------------------------------
 
-## Endocarditis: Synergy Dosing
+## Endocarditis: Synergy dosing
 
 <br>
 
@@ -478,13 +454,12 @@ These represent niche uses where aminoglycosides have specific advantages. Inhal
 - Optional gentamicin × 3-5 days
 - Controversial benefit vs. toxicity risk
 
-::: notes
-For enterococcal endocarditis, synergy testing is critical. High-level aminoglycoside resistance (HLAR) eliminates synergy. The gentamicin duration has been shortened to reduce nephrotoxicity. For staph, recent data questions the benefit.
+::: aside
+For enterococcal endocarditis, synergy testing is critical. High-level aminoglycoside resistance (HLAR) eliminates synergy. The gentamicin duration has been shortened to reduce nephrotoxicity. For staph, recent data questions the benefit (dual ß-lactam therapy preferred)
 :::
 
-------------------------------------------------------------------------
 
-## Empiric Therapy: Neutropenic Fever
+## Empiric therapy: Neutropenic fever
 
 <br>
 
