@@ -759,13 +759,13 @@ Multiple concurrent nephrotoxins significantly increase risk. The vancomycin-ami
 
 6.  **Monitor serum creatinine** every 2-3 days
 
-::: notes
+<br><br>
+
+::: aside
 The most impactful intervention is extended-interval dosing. Studies show 50-75% reduction in nephrotoxicity compared to traditional dosing. Short courses also dramatically reduce risk.
 :::
 
-------------------------------------------------------------------------
-
-## Ototoxicity: Two Forms
+## Ototoxicity: Two forms
 
 <br>
 
@@ -774,46 +774,31 @@ The most impactful intervention is extended-interval dosing. Studies show 50-75%
 - High-frequency hearing loss first
 - May progress to speech frequencies
 - Often **irreversible**
-- Associated with: Amikacin, Kanamycin, Neomycin
+- Associated with: amikacin, kanamycin, neomycin
 
 **Vestibular toxicity:**
 
 - Vertigo, nystagmus, ataxia
 - May improve with time/compensation
-- Associated with: Gentamicin, Streptomycin, Tobramycin
+- Associated with: gentamicin, streptomycin, tobramycin
 
-::: notes
+::: aside
 Different aminoglycosides have different propensities for cochlear vs vestibular toxicity. Gentamicin is sometimes used therapeutically for vestibular ablation in Meniere's disease. The hearing loss is often initially subclinical.
 :::
 
-------------------------------------------------------------------------
-
-## Ototoxicity: Mechanism
+## Ototoxicity: mechanism
 
 <br>
 
-**Hair cell destruction in inner ear:**
+![](images-aminoglycoside/ototoxicity.png){fig-align="center" width="900"}
 
-1.  Drug enters cochlear fluids
-2.  Accumulates in hair cells
-3.  Generates reactive oxygen species
-4.  Triggers apoptosis
-5.  Hair cells do not regenerate
-
-**Risk factors:**
-
-- Cumulative dose
-- Concurrent loop diuretics
-- Genetic susceptibility
-- Prior aminoglycoside exposure
-
-::: notes
+::: aside
 Unlike nephrotoxicity, ototoxicity may be irreversible because cochlear hair cells cannot regenerate. This is why it's so important to identify patients at risk and minimize exposure.
 :::
 
-------------------------------------------------------------------------
 
-## Genetic Risk: MT-RNR1 Mutation
+
+## Genetic risk: MT-RNR1 mutation
 
 <br>
 
@@ -833,9 +818,9 @@ Unlike nephrotoxicity, ototoxicity may be irreversible because cochlear hair cel
 This mutation is maternally inherited. Patients with this mutation have mitochondrial ribosomes that bind aminoglycosides, leading to hair cell death. A single dose can be devastating. Consider testing before aminoglycoside exposure when possible.
 :::
 
-------------------------------------------------------------------------
 
-## Neuromuscular Blockade
+
+## Neuromuscular blockade
 
 <br>
 
@@ -856,13 +841,13 @@ This mutation is maternally inherited. Patients with this mutation have mitochon
 - Calcium gluconate
 - Neostigmine (limited efficacy)
 
-::: notes
+::: aside
 This is rare but can be life-threatening. Always infuse aminoglycosides over 30-60 minutes. Be extremely cautious in patients with myasthenia gravis - consider alternatives.
 :::
 
-------------------------------------------------------------------------
 
-## Drug Interactions
+
+## Drug interactions
 
 <br>
 
@@ -876,15 +861,15 @@ This is rare but can be life-threatening. Always infuse aminoglycosides over 30-
 | NSAIDs                 | ↑ Nephrotoxicity  |
 | IV contrast            | ↑ Nephrotoxicity  |
 
-::: notes
+::: aside
 The vancomycin combination deserves special attention - it's extremely common and the nephrotoxicity risk is additive or synergistic. Consider extended infusions of vancomycin and vigilant monitoring.
 :::
 
-------------------------------------------------------------------------
+
 
 # Therapeutic Drug Monitoring {background-color="#b20e10"}
 
-------------------------------------------------------------------------
+
 
 ## When is TDM Needed?
 
@@ -909,15 +894,15 @@ The vancomycin combination deserves special attention - it's extremely common an
 TDM is one of the most important aspects of aminoglycoside therapy. The narrow therapeutic window and significant inter-patient variability make monitoring essential for most patients.
 :::
 
-------------------------------------------------------------------------
 
-## Peak and Trough Targets
+
+## Peak and trough Targets
 
 <br>
 
 **Extended-interval dosing:**
 
-| Agent      | Target Peak | Target Trough |
+| Agent      | Target peak | Target trough |
 |------------|-------------|---------------|
 | Gentamicin | 15-20 mg/L  | \< 1 mg/L     |
 | Tobramycin | 15-20 mg/L  | \< 1 mg/L     |
@@ -925,17 +910,19 @@ TDM is one of the most important aspects of aminoglycoside therapy. The narrow t
 
 **Traditional dosing (synergy):**
 
-| Agent      | Target Peak | Target Trough |
+| Agent      | Target peak | Target trough |
 |------------|-------------|---------------|
 | Gentamicin | 3-4 mg/L    | \< 1 mg/L     |
 
-::: notes
+<br> <br>
+
+::: aside
 For extended-interval dosing, the ideal is an undetectable trough. If trough is elevated, extend the interval. For traditional dosing, lower peaks are acceptable since we're targeting synergy, not independent activity.
 :::
 
-------------------------------------------------------------------------
 
-## Sample Timing
+
+## Sample timing approaches
 
 <br>
 
@@ -954,13 +941,15 @@ For extended-interval dosing, the ideal is an undetectable trough. If trough is 
 - Separated by at least 1.5 half-lives
 - Allows calculation of individual PK parameters
 
-::: notes
+<br> <br>
+
+::: aside
 The distribution phase lasts about 30 minutes. Drawing too early gives falsely elevated peaks. For kinetic calculations, both levels should be in the elimination phase for accurate half-life estimation.
 :::
 
-------------------------------------------------------------------------
 
-## Interpreting Results
+
+## Interpreting TDM results
 
 <br>
 
@@ -982,13 +971,13 @@ The distribution phase lasts about 30 minutes. Drawing too early gives falsely e
 - Likely renal impairment
 - Recalculate using current renal function
 
-::: notes
+::: aside
 Elevated troughs are more concerning than elevated peaks from a toxicity standpoint. The goal is to achieve good peaks (efficacy) while allowing complete elimination before the next dose (safety).
 :::
 
-------------------------------------------------------------------------
+<br> <br>
 
-## TDM Methods Comparison
+## TDM methods comparison
 
 <br>
 
@@ -1000,15 +989,18 @@ Elevated troughs are more concerning than elevated peaks from a toxicity standpo
 | Nomogram (Hartford)      | Moderate  | Simple             |
 | Threshold interpretation | Lower     | Simplest           |
 
+
+<br> <br>
+
 **Bayesian methods:** Incorporate population PK + patient covariates
 
-::: notes
+::: aside
 Bayesian software (like JPAC, DoseMe, or InsightRx) provides the most accurate estimates by combining measured levels with population PK data. Many institutions now use these systems.
 :::
 
-------------------------------------------------------------------------
 
-## Practical TDM Approach
+
+## Practical TDM approach
 
 <br>
 
@@ -1031,11 +1023,9 @@ Bayesian software (like JPAC, DoseMe, or InsightRx) provides the most accurate e
 This is a practical workflow for most patients. The key is not to wait too long before getting initial levels - early adjustment prevents both subtherapeutic dosing and toxicity.
 :::
 
-------------------------------------------------------------------------
 
 # Clinical Scenarios {background-color="#b20e10"}
 
-------------------------------------------------------------------------
 
 ## Case 1: Gram-Negative Sepsis
 
@@ -1061,9 +1051,9 @@ This is a practical workflow for most patients. The key is not to wait too long 
 This represents a common scenario. While monotherapy is often sufficient, combination therapy may improve outcomes in septic shock, particularly in the first 48-72 hours before susceptibilities are known.
 :::
 
-------------------------------------------------------------------------
 
-## Case 2: Enterococcal Endocarditis
+
+## Case 2: Enterococcal endocarditis
 
 <br>
 
@@ -1076,7 +1066,7 @@ This represents a common scenario. While monotherapy is often sufficient, combin
 ::: fragment
 **Answer:**
 
-- Check for high-level gentamicin resistance (HLGR)
+- Check for high-level gentamicin resistance (HLGR-500 µg disk)
 - If susceptible: Gentamicin 3 mg/kg/day divided q8h
 - Target peak: 3-4 mg/L
 - Target trough: \< 1 mg/L
@@ -1087,7 +1077,7 @@ This represents a common scenario. While monotherapy is often sufficient, combin
 High-level resistance testing is critical. If HLGR is present, aminoglycosides provide no benefit. The synergy dose is much lower than the "therapeutic" dose for gram-negatives.
 :::
 
-------------------------------------------------------------------------
+
 
 ## Case 3: Obesity
 
@@ -1108,13 +1098,14 @@ High-level resistance testing is critical. If HLGR is present, aminoglycosides p
 - Obtain levels and adjust
 :::
 
-::: notes
+<br> <br>
+
+::: aside
 Using actual weight (145 kg) would give 1015 mg - a massive overdose. Using IBW (55 kg) would give 385 mg - likely subtherapeutic. Adjusted body weight provides a reasonable starting point, but TDM is essential.
 :::
 
-------------------------------------------------------------------------
 
-## Case 4: Renal Impairment
+## Case 4: Renal impairment
 
 <br>
 
@@ -1134,13 +1125,15 @@ Using actual weight (145 kg) would give 1015 mg - a massive overdose. Using IBW 
 - TDM essential - adjust based on levels
 :::
 
-::: notes
+<br> <br>
+
+::: aside
 The loading dose is the same regardless of renal function - we need to achieve adequate initial concentrations. Renal function affects elimination, so we extend the interval rather than reduce the dose (preserving the peak).
 :::
 
-------------------------------------------------------------------------
 
-## Case 5: Cystic Fibrosis
+
+## Case 5: Cystic fibrosis
 
 <br>
 
@@ -1164,9 +1157,9 @@ The loading dose is the same regardless of renal function - we need to achieve a
 CF patients have altered pharmacokinetics - larger volumes of distribution and faster elimination. They often require higher mg/kg doses to achieve target concentrations. This is a population where TDM is particularly important.
 :::
 
-------------------------------------------------------------------------
 
-## Inhaled Aminoglycosides
+
+## Inhaled aminoglycosides
 
 <br>
 
@@ -1184,13 +1177,14 @@ CF patients have altered pharmacokinetics - larger volumes of distribution and f
 | Tobramycin powder        | 112 mg | BID                 |
 | ALIS (amikacin liposome) | 590 mg | Daily               |
 
-::: notes
+<br> <br>
+
+::: aside
 Inhaled aminoglycosides achieve very high local concentrations with minimal systemic absorption. Systemic TDM is not needed for inhaled therapy. Voice changes and bronchospasm are common local effects.
 :::
 
-------------------------------------------------------------------------
 
-## Key Takeaways: Mechanism
+## Key takeaways: Mechanism
 
 <br>
 
@@ -1201,9 +1195,8 @@ Inhaled aminoglycosides achieve very high local concentrations with minimal syst
 - Synergistic with cell wall-active agents
 - AUC/MIC is primary PK/PD driver
 
-------------------------------------------------------------------------
 
-## Key Takeaways: Clinical Use
+## Key takeaways: Clinical use
 
 <br>
 
@@ -1214,9 +1207,8 @@ Inhaled aminoglycosides achieve very high local concentrations with minimal syst
 - Reserve for serious infections/MDR organisms
 - Plazomicin for CRE
 
-------------------------------------------------------------------------
 
-## Key Takeaways: Dosing
+## Key takeaways: Dosing
 
 <br>
 
@@ -1227,9 +1219,9 @@ Inhaled aminoglycosides achieve very high local concentrations with minimal syst
 - Loading dose independent of renal function
 - TDM for courses \> 3 days
 
-------------------------------------------------------------------------
 
-## Key Takeaways: Safety
+
+## Key takeaways: Safety
 
 <br>
 
@@ -1240,7 +1232,7 @@ Inhaled aminoglycosides achieve very high local concentrations with minimal syst
 - Avoid concurrent nephrotoxins
 - Consider genetic screening (MT-RNR1)
 
-------------------------------------------------------------------------
+
 
 ## Summary: The "Aminoglycoside Checklist"
 
@@ -1262,37 +1254,7 @@ Inhaled aminoglycosides achieve very high local concentrations with minimal syst
 
 ✓ Monitoring for toxicity?
 
-------------------------------------------------------------------------
 
-## Questions?
-
-<br>
-
-**Key Resources:**
-
-- IDSA Guidelines for Treatment of Resistant Gram-Negatives
-- Sanford Guide
-- Clinical Pharmacokinetics textbooks
-
-**Contact Information:**
-
-- Thomas P. Lodise
-- Manjunath P. Pai
-
-::: notes
-Open floor for questions. Good topics for discussion: When to use aminoglycosides vs. other agents, managing toxicity, specific clinical scenarios, interpretation of TDM results.
-:::
-
-------------------------------------------------------------------------
 
 ## References
 
-<br>
-
-See chapter bibliography (references.bib)
-
-Key references:
-
-- Tamma PD et al. IDSA Guidance 2022
-- Craig WA. Pharmacokinetic/pharmacodynamic parameters
-- Moore RD et al. Clinical response to aminoglycoside therapy
