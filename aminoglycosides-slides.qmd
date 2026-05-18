@@ -157,6 +157,7 @@ Gentamicin remains most commonly used for synergy. Tobramycin preferred for Pseu
 :::
 
 ## Family of Aminoglycosides in Clinical Use {.smaller}
+<br>
 
 | **Generic Name** | **Proprietary Name** | **Source** | **Year Reported** | **Chemistry** |
 |---|---|---|---|---|
