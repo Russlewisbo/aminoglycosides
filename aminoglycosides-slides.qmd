@@ -1,5 +1,5 @@
 ---
-title: "Cephalosporins and Cephalosporin/β-Lactamase Inhibitor Combinations"
+title: "Aminoglycosides"
 format:
   revealjs:
     self-contained: true
@@ -49,22 +49,22 @@ By the end of this lecture, you will be able to:
 5.  Design appropriate therapeutic drug monitoring plans
 6.  Select appropriate aminoglycosides for specific clinical scenarios
 
-## Lecture Outline
+## Lecture outline
 
 <br>
 
-::::: columns
-::: {.column width="50%"}
+::::: {.columns style="justify-content: center; gap: 4rem;"}
+::: {.column width="40%"}
 **Part 1: Fundamentals**
 
-- History & Discovery
-- Chemical Structure
-- Mechanism of Action
-- PK/PD Principles
+- History & discovery
+- Chemical structure
+- Mechanism of action
+- PK/PD principles
 :::
 
-::: {.column width="50%"}
-**Part 2: Clinical Application**
+::: {.column width="40%"}
+**Part 2: Clinical application**
 
 - Spectrum & Resistance
 - Dosing Strategies
@@ -212,9 +212,9 @@ The polycationic nature is critical for both mechanism of action (binding to bac
 
 ## Aminoglycosides:MOA
 
-![](images-aminoglycoside/amino_MOA.png){fig-align="center"}
+![](images-aminoglycoside/amino_MOA.png){fig-align="center" width="700"}
 
-## Why Aminoglycosides Are Bactericidal
+## Why aminoglycosides are bactericidal
 
 <br>
 
