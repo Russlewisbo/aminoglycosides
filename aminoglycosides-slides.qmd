@@ -49,11 +49,7 @@ By the end of this lecture, you will be able to:
 5.  Design appropriate therapeutic drug monitoring plans
 6.  Select appropriate aminoglycosides for specific clinical scenarios
 
-::: notes
-This is a comprehensive 1-hour lecture on aminoglycosides. We'll cover history, mechanism, PK/PD, clinical use, dosing, toxicity, and monitoring. Encourage questions throughout.
-:::
 
-------------------------------------------------------------------------
 
 ## Lecture Outline
 
@@ -80,11 +76,10 @@ This is a comprehensive 1-hour lecture on aminoglycosides. We'll cover history, 
 :::
 :::::
 
-------------------------------------------------------------------------
 
 # PART 1: Fundamentals {background-color="#b20e10"}
 
-------------------------------------------------------------------------
+
 
 ## Historical Timeline
 
@@ -100,13 +95,13 @@ This is a comprehensive 1-hour lecture on aminoglycosides. We'll cover history, 
 | 1972 | Amikacin                            |
 | 2018 | Plazomicin                          |
 
-::: notes
+::: aside
 Streptomycin was discovered by Selman Waksman's group at Rutgers through systematic screening of soil actinomycetes. It was the first effective treatment for tuberculosis. The class has evolved over 75+ years.
 :::
 
-------------------------------------------------------------------------
 
-## The Discovery of Streptomycin
+
+## The discovery of streptomycin
 
 <br>
 
@@ -114,17 +109,17 @@ Streptomycin was discovered by Selman Waksman's group at Rutgers through systema
 - Systematic screening of soil actinomycetes
 - Isolated from *Streptomyces griseus*
 - First effective treatment for tuberculosis
+- Ringo Starr (Beatles drummer) among first treated patients
 - Waksman awarded Nobel Prize (1952)
 
-> "The grueling search through 10,000 soil samples yielded streptomycin"
+"The grueling search through 10,000 soil samples yielded streptomycin"
 
-::: notes
+::: aside
 The discovery process was methodical - testing thousands of soil samples for antimicrobial activity. This approach led to the "golden age" of antibiotic discovery.
 :::
 
-------------------------------------------------------------------------
 
-## Nomenclature Convention
+## Nomenclature convention
 
 <br>
 
@@ -142,9 +137,9 @@ The discovery process was methodical - testing thousands of soil samples for ant
 This naming convention is useful for remembering the source organism. Both genera are soil actinomycetes.
 :::
 
-------------------------------------------------------------------------
 
-## Currently FDA-Approved Agents
+
+## Currently FDA-approved agents
 
 <br>
 
@@ -157,13 +152,22 @@ This naming convention is useful for remembering the source organism. Both gener
 
 Streptomycin: Limited availability (TB, plague, tularemia)
 
-::: notes
-Gentamicin remains most commonly used for synergy. Tobramycin preferred for Pseudomonas. Amikacin reserved for resistant organisms. Plazomicin is newest, designed to evade resistance mechanisms.
+::: aside
+Gentamicin remains most commonly used for synergy. Tobramycin preferred for Pseudomonas. Amikacin reserved for resistant organisms. Plazomicin is newest, designed to evade resistance mechanisms- but not available in EU.
 :::
 
-------------------------------------------------------------------------
+## Family of Aminoglycosides in Clinical Use {.smaller}
 
-## Chemical Structure Overview
+| **Generic Name** | **Proprietary Name** | **Source** | **Year Reported** | **Chemistry** |
+|---|---|---|---|---|
+| Streptomycin | None | *Streptomyces griseus* | 1944 | Unique central aminocyclitol ring |
+| Neomycin | Mycifradin, Neobiotic | *Streptomyces fradiae* | 1949 | Roughly equal proportions of neomycin B and C |
+| Kanamycin | Kantrex | *Streptomyces kanamyceticus* | 1957 | Mixture of 95% kanamycin A and 5% kanamycin B |
+| Paromomycin | Humatin | *S. fradiae* | 1959 | Part of neomycin family |
+| Spectinomycin | Trobicin | *Streptomyces spectabilis* | 1961 | Chemically distinct but closely related to aminoglycosides |
+| Gentamicin | Garamycin | *Micromonospora purpurea* and *Micromonospora echinospora* | 1963 | Roughly equal proportions of gentamicin C₁, C₁ₐ, and enantiomers C₂ and C₂ₐ |
+
+## Chemical Structure overview
 
 <br>
 
