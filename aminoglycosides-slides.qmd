@@ -49,8 +49,6 @@ By the end of this lecture, you will be able to:
 5.  Design appropriate therapeutic drug monitoring plans
 6.  Select appropriate aminoglycosides for specific clinical scenarios
 
-
-
 ## Lecture Outline
 
 <br>
@@ -76,10 +74,7 @@ By the end of this lecture, you will be able to:
 :::
 :::::
 
-
 # PART 1: Fundamentals {background-color="#b20e10"}
-
-
 
 ## Historical Timeline
 
@@ -99,8 +94,6 @@ By the end of this lecture, you will be able to:
 Streptomycin was discovered by Selman Waksman's group at Rutgers through systematic screening of soil actinomycetes. It was the first effective treatment for tuberculosis. The class has evolved over 75+ years.
 :::
 
-
-
 ## The discovery of streptomycin
 
 <br>
@@ -117,7 +110,6 @@ Streptomycin was discovered by Selman Waksman's group at Rutgers through systema
 ::: aside
 The discovery process was methodical - testing thousands of soil samples for antimicrobial activity. This approach led to the "golden age" of antibiotic discovery.
 :::
-
 
 ## Nomenclature convention
 
@@ -137,8 +129,6 @@ The discovery process was methodical - testing thousands of soil samples for ant
 This naming convention is useful for remembering the source organism. Both genera are soil actinomycetes.
 :::
 
-
-
 ## Currently FDA-approved agents
 
 <br>
@@ -156,11 +146,12 @@ Streptomycin: Limited availability (TB, plague, tularemia)
 Gentamicin remains most commonly used for synergy. Tobramycin preferred for Pseudomonas. Amikacin reserved for resistant organisms. Plazomicin is newest, designed to evade resistance mechanisms- but not available in EU.
 :::
 
-## Family of Aminoglycosides in Clinical Use {.smaller}
+## Family of aminoglycosides in clinical use {.smaller}
+
 <br>
 
 | **Generic Name** | **Proprietary Name** | **Source** | **Year Reported** | **Chemistry** |
-|---|---|---|---|---|
+|---------------|---------------|---------------|---------------|---------------|
 | Streptomycin | None | *Streptomyces griseus* | 1944 | Unique central aminocyclitol ring |
 | Neomycin | Mycifradin, Neobiotic | *Streptomyces fradiae* | 1949 | Roughly equal proportions of neomycin B and C |
 | Kanamycin | Kantrex | *Streptomyces kanamyceticus* | 1957 | Mixture of 95% kanamycin A and 5% kanamycin B |
@@ -168,19 +159,17 @@ Gentamicin remains most commonly used for synergy. Tobramycin preferred for Pseu
 | Spectinomycin | Trobicin | *Streptomyces spectabilis* | 1961 | Chemically distinct but closely related to aminoglycosides |
 | Gentamicin | Garamycin | *Micromonospora purpurea* and *Micromonospora echinospora* | 1963 | Roughly equal proportions of gentamicin C₁, C₁ₐ, and enantiomers C₂ and C₂ₐ |
 
-## Chemical Structure overview
+## Chemical structure overview
 
 <br>
 
-![Chemical structures of aminoglycosides grouped by structural subtypes](images/fig-006.png){width="85%"}
+![](images-aminoglycoside/structures.png){fig-align="center" width="700"}
 
-::: notes
+::: aside
 All aminoglycosides contain an aminocyclitol ring (streptidine or 2-deoxystreptamine) connected to amino sugars. The specific sugar attachments determine spectrum and susceptibility to modifying enzymes.
 :::
 
-------------------------------------------------------------------------
-
-## Structural Classification
+## Structural classification
 
 <br>
 
@@ -197,13 +186,11 @@ All aminoglycosides contain an aminocyclitol ring (streptidine or 2-deoxystrepta
 - Kanamycin, Amikacin, Tobramycin
 - Gentamicin, Sisomicin, Plazomicin
 
-::: notes
+::: aside
 The 4,6-disubstituted compounds are most clinically relevant today. Understanding structure helps predict which resistance mechanisms will affect which drugs.
 :::
 
-------------------------------------------------------------------------
-
-## Key Chemical Properties
+## Key chemical properties
 
 <br>
 
@@ -219,82 +206,13 @@ These properties directly influence:
 - Elimination (renal, GFR-dependent)
 - Drug interactions (binding to cell membranes)
 
-::: notes
+::: aside
 The polycationic nature is critical for both mechanism of action (binding to bacterial membranes and ribosomes) and toxicity (binding to renal tubular cells and inner ear).
 :::
 
-------------------------------------------------------------------------
+## Aminoglycosides:MOA
 
-## Mechanism of Action: Step 1
-
-<br>
-
-### Outer Membrane Binding
-
-1.  Aminoglycosides bind to **lipopolysaccharide (LPS)**
-2.  Displace **Mg²⁺ and Ca²⁺** divalent cations
-3.  Destabilize outer membrane
-4.  Create transient pores
-
-This is called **"self-promoted uptake"**
-
-::: notes
-The initial electrostatic interaction between positively charged aminoglycosides and negatively charged LPS is concentration-dependent. Higher concentrations = faster uptake = more rapid killing.
-:::
-
-------------------------------------------------------------------------
-
-## Mechanism of Action: Step 2
-
-<br>
-
-### Energy-Dependent Uptake
-
-- Requires electron transport chain (aerobic)
-- ATP-dependent process
-- Explains **reduced activity in:**
-  - Anaerobic conditions
-  - Abscesses (low O₂, low pH)
-  - Biofilms
-
-::: notes
-This is why aminoglycosides are not effective as monotherapy for abscesses - the anaerobic, acidic environment impairs uptake. Also explains lack of activity against strict anaerobes.
-:::
-
-------------------------------------------------------------------------
-
-## Mechanism of Action: Step 3
-
-<br>
-
-### Ribosomal Binding
-
-- Binds to **16S rRNA** of 30S ribosomal subunit
-- Specifically to the **A-site** (aminoacyl-tRNA site)
-- Causes **codon misreading**
-- Results in **mistranslated proteins**
-
-Defective proteins → Membrane damage → Cell death
-
-::: notes
-The binding to the A-site causes the ribosome to misread mRNA codons. The resulting aberrant proteins, when inserted into the membrane, cause further damage and create a positive feedback loop of drug entry.
-:::
-
-------------------------------------------------------------------------
-
-## Ribosomal Binding: Molecular Detail
-
-<br>
-
-![3D structure showing aminoglycoside binding to bacterial ribosome](images/fig-007.png){width="80%"}
-
-Key residues: A1408, G1405, A1492, A1493
-
-::: notes
-X-ray crystallography has revealed the precise binding interactions. Mutations at these key residues confer resistance. Understanding this helps explain why different aminoglycosides have varying susceptibility to resistance.
-:::
-
-------------------------------------------------------------------------
+![](images-aminoglycoside/amino_MOA.png){fig-align="center"}
 
 ## Why Aminoglycosides Are Bactericidal
 
