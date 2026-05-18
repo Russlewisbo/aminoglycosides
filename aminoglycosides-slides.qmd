@@ -24,11 +24,13 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 <br>
 
-<br> <br>
+<br>
 
 <center>
 
 **Russell E. Lewis** <br> Associate Professor of Infectious Diseases <br>
+
+<br> <br>
 
 ![](images-aminoglycoside/DMM_newlogo.png){fig-align="center" width="350"}
 
@@ -254,7 +256,7 @@ Most ribosomal inhibitors simply stop protein synthesis (bacteriostatic). Aminog
 Higher peak concentrations = Greater bacterial kill
 
 ::: aside
-The left panel shows AUC/MIC correlation, middle shows Peak/MIC, right shows Time\>MIC. Note the strongest correlation is with AUC/MIC, though Peak/MIC also shows good correlation. Time\>MIC is least predictive.[@craigOptimizingAminoglycosideUse2011]
+The left panel shows AUC/MIC correlation, middle shows Peak/MIC, right shows Time\>MIC. Note the strongest correlation is with AUC/MIC, though Peak/MIC also shows good correlation. Time\>MIC is least predictive [@craigOptimizingAminoglycosideUse2011].
 :::
 
 ## Post-Antibiotic Effect (PAE)
@@ -302,15 +304,7 @@ The PAE is thought to result from persistent ribosomal binding and the time requ
 The shift from Cmax/MIC to AUC/MIC represents evolving understanding. In practice, we still use peak/trough monitoring because AUC calculation requires multiple levels. Undetectable troughs minimize toxicity.
 :::
 
-## Monitoring: Hartford nomogram
-
-![](images-aminoglycoside/nomogram.png){fig-align="center" width="700"}
-
-::: aside
-Monitoring: Draw a single level 6-14 hours after the initial dose. Fit the result onto the nomogram below to confirm (or modify) the chosen dosage interval. IMPORTANT: The y-axis is only valid for a 7 mg/kg dose of gentamicin or tobramycin. If a different dose was used, such as 5 mg/kg, then the measured concentration must be multiplied by 7/5 to use the nomogram. If amikacin 15 mg/kg was used, the measured concentration must be halved to use the nomogram.
-:::
-
-## Synergy with β-Lactams
+## Synergy with β-lactams
 
 ![](images-aminoglycoside/synergy_aminoglycosides.png){fig-align="center" width="700"}
 
@@ -392,15 +386,13 @@ Plazomicin has strategic modifications at positions typically targeted by AMEs. 
 
 ## Resistance mechanisms
 
-![](images-aminoglycoside/AG_resistance mechanism.png){fig-align="center" width="800"}
+![](images-aminoglycoside/AG_resistance%20mechanism.png){fig-align="center" width="800"}
 
-<br> <br> 
+<br> <br>
 
 ::: aside
 AMEs are most common and typically affect specific agents based on the modification site. Methyltransferases are concerning because they confer resistance to ALL aminoglycosides. Often plasmid-mediated and associated with carbapenemases.
 :::
-
-
 
 ## Clinical indications
 
@@ -419,8 +411,6 @@ AMEs are most common and typically affect specific agents based on the modificat
 Aminoglycosides are rarely used as monotherapy except for uncomplicated UTI. The combination provides broader coverage, synergy, and helps prevent resistance emergence.
 :::
 
-
-
 ## Additional clinical uses
 
 <br>
@@ -436,7 +426,6 @@ Aminoglycosides are rarely used as monotherapy except for uncomplicated UTI. The
 ::: aside
 These represent niche uses where aminoglycosides have specific advantages. Inhaled therapy achieves high lung concentrations with minimal systemic exposure. Antibiotic cement provides local prophylaxis.
 :::
-
 
 ## Endocarditis: Synergy dosing
 
@@ -455,9 +444,8 @@ These represent niche uses where aminoglycosides have specific advantages. Inhal
 - Controversial benefit vs. toxicity risk
 
 ::: aside
-For enterococcal endocarditis, synergy testing is critical. High-level aminoglycoside resistance (HLAR) eliminates synergy. The gentamicin duration has been shortened to reduce nephrotoxicity. For staph, recent data questions the benefit (dual ß-lactam therapy preferred)
+For enterococcal endocarditis, synergy testing is critical. High-level aminoglycoside resistance (HLAR) eliminates synergy. The gentamicin duration has been shortened to reduce nephrotoxicity. For staphylococcus, recent data questions the benefit of aminoglycosides (dual ß-lactam therapy preferred)
 :::
-
 
 ## Empiric therapy: Neutropenic fever
 
@@ -469,23 +457,19 @@ For enterococcal endocarditis, synergy testing is critical. High-level aminoglyc
 
 **Current guidelines (IDSA 2010):**
 
-- Monotherapy often sufficient (cefepime, pip-tazo, carbapenem)
+- Monotherapy often sufficient (cefepime, piperacillin-tazobactam, anti-pseudomonal carbapenem)
 - Add aminoglycoside if:
   - Hemodynamic instability
   - Suspected resistant gram-negative
   - High local resistance rates
 
-::: notes
+::: aside
 The role of empiric aminoglycosides has diminished with broader-spectrum β-lactams. However, they remain valuable for critically ill patients or when resistant organisms are suspected.
 :::
 
-------------------------------------------------------------------------
-
 # Dosing Strategies {background-color="#b20e10"}
 
-------------------------------------------------------------------------
-
-## Extended-Interval vs. Traditional Dosing
+## Extended-interval vs. Traditional dosing
 
 <br>
 
@@ -498,13 +482,13 @@ The role of empiric aminoglycosides has diminished with broader-spectrum β-lact
 | Toxicity   | Lower             | Higher      |
 | Monitoring | Simpler           | Complex     |
 
+<br>
+
 **Extended-interval is preferred for most indications**
 
-::: notes
+::: aside
 Extended-interval dosing exploits concentration-dependent killing and PAE while minimizing toxicity through drug-free intervals. Traditional dosing still used for synergy (lower doses needed) and some special populations.
 :::
-
-------------------------------------------------------------------------
 
 ## Extended-Interval Dosing Regimens
 
@@ -517,15 +501,15 @@ Extended-interval dosing exploits concentration-dependent killing and PAE while 
 | Amikacin   | 15-20 mg/kg | q24h      |
 | Plazomicin | 15 mg/kg    | q24h      |
 
+<br><br>
+
 **Use actual body weight unless obese**
 
-::: notes
+::: aside
 These doses target peak concentrations of 15-20 mg/L for gentamicin/tobramycin and 56-64 mg/L for amikacin. Higher amikacin doses (20-30 mg/kg) sometimes used for resistant organisms or critically ill.
 :::
 
-------------------------------------------------------------------------
-
-## Traditional Dosing (Synergy)
+## Traditional dosing (Synergy)
 
 <br>
 
@@ -534,9 +518,13 @@ These doses target peak concentrations of 15-20 mg/L for gentamicin/tobramycin a
 | Gentamicin | 3 mg/kg/day | q8h or q12h |
 | Tobramycin | 3 mg/kg/day | q8h or q12h |
 
+<br> <br>
+
 **Target peaks:** 3-4 mg/L
 
 **Target troughs:** \< 1 mg/L
+
+<br> <br>
 
 Used for:
 
@@ -548,9 +536,7 @@ Used for:
 Lower doses are needed for synergy because we're just trying to enhance β-lactam killing, not achieve independent aminoglycoside bactericidal activity. The peaks don't need to be high.
 :::
 
-------------------------------------------------------------------------
-
-## Dosing in Obesity
+## Dosing in obesity
 
 <br>
 
@@ -559,26 +545,24 @@ Lower doses are needed for synergy because we're just trying to enhance β-lacta
 - Actual weight \> 120% of ideal body weight, OR
 - BMI ≥ 30 kg/m²
 
-**Calculate Adjusted Body Weight (ABW):**
+**Calculate adjusted body weight (ABW):**
 
 $$ABW = IBW + 0.4 \times (Actual - IBW)$$
 
-**Ideal Body Weight (IBW):**
+**Ideal body weight (IBW):**
 
 - Males: 50 kg + 2.3 kg per inch over 5 feet
 - Females: 45.5 kg + 2.3 kg per inch over 5 feet
 
-::: notes
+::: aside
 The 0.4 correction factor accounts for the fact that aminoglycosides partially distribute into adipose tissue (about 40%). Using actual weight would overdose; using IBW would underdose.
 :::
 
-------------------------------------------------------------------------
-
-## Obesity Dosing Example
+## Obesity dosing example
 
 <br>
 
-**Patient:** 180 kg male, 5'10" (70 inches)
+**Patient:** 180 kg male, 5'10" (70 inches) <br> <br>
 
 **Step 1: Calculate IBW** $$IBW = 50 + 2.3(70-60) = 73 kg$$
 
@@ -588,17 +572,19 @@ The 0.4 correction factor accounts for the fact that aminoglycosides partially d
 
 Round to **800 mg** IV q24h
 
-::: notes
-Walk through this calculation step-by-step. Emphasize that using 180 kg would give 1260 mg - a significant overdose. Using 73 kg (IBW) would give only 511 mg - likely subtherapeutic.
+<br> <br>
+
+::: aside
+Using 180 kg would give 1260 mg - a significant overdose. Using 73 kg (IBW) would give only 511 mg - likely subtherapeutic.
 :::
 
-------------------------------------------------------------------------
-
-## Dosing in Renal Impairment
+## Dosing in renal impairment
 
 <br>
 
 **Key principle:** Aminoglycoside clearance ≈ GFR
+
+<br>
 
 | CrCl (mL/min) | Interval Adjustment       |
 |---------------|---------------------------|
@@ -607,15 +593,17 @@ Walk through this calculation step-by-step. Emphasize that using 180 kg would gi
 | 20-40         | q48h                      |
 | \< 20         | Extend further or use TDM |
 
+<br>
+
 **Alternative:** Reduce dose, maintain interval
 
-::: notes
+<br> <br>
+
+::: aside
 Interval extension is generally preferred over dose reduction to maintain concentration-dependent killing. However, very long intervals may not be practical. TDM becomes essential in renal impairment.
 :::
 
-------------------------------------------------------------------------
-
-## Renal Dosing: Hartford Nomogram
+## Renal dosing: Hartford nomogram
 
 <br>
 
@@ -632,13 +620,23 @@ Interval extension is generally preferred over dose reduction to maintain concen
 - Single level needed
 - Validated in clinical trials
 
-::: notes
+<br><br>
+
+::: aside
 The Hartford nomogram is widely used and has been validated. It's based on the principle that the time to reach a trough \< 1 mg/L depends on renal function. The single level approach is practical.
 :::
 
-------------------------------------------------------------------------
+## Extended-interval- monitoring
 
-## Hemodialysis Dosing
+Hartford nomogram
+
+![](images-aminoglycoside/nomogram.png){fig-align="center" width="800"}
+
+::: aside
+The serum gentamicin or tobramycin concentration should be obtained approximately 6 hours (or up to 14 hours) after the initial dose of 7 mg/kg and plotted on the above nomogram. The interval for drug administration of subsequent doses of 7 mg/kg is then determined based on the interval specified on the graph.
+:::
+
+## Hemodialysis dosing
 
 <br>
 
@@ -656,13 +654,11 @@ The Hartford nomogram is widely used and has been validated. It's based on the p
 
 **Measure levels to guide dosing**
 
-::: notes
+::: aside
 Aminoglycosides are readily dialyzed due to their small molecular weight and low protein binding. The timing of dialysis relative to dosing significantly affects drug exposure. Individualized TDM is strongly recommended.
 :::
 
-------------------------------------------------------------------------
-
-## CRRT Dosing
+## CRRT dosing
 
 <br>
 
@@ -679,17 +675,15 @@ Aminoglycosides are readily dialyzed due to their small molecular weight and low
 | CVVHD     | 20-30 mL/min      |
 | CVVHDF    | 25-40 mL/min      |
 
-::: notes
+<br>
+
+::: aside
 CRRT provides continuous, slower drug removal compared to intermittent HD. Clearance depends on filter, blood flow, dialysate flow, and ultrafiltration rates. These can change frequently in ICU patients.
 :::
 
-------------------------------------------------------------------------
-
 # Adverse Effects {background-color="#b20e10"}
 
-------------------------------------------------------------------------
-
-## Toxicity Overview
+## Toxicity overview
 
 <br>
 
@@ -706,37 +700,19 @@ CRRT provides continuous, slower drug removal compared to intermittent HD. Clear
 - Elevated trough concentrations
 - Concurrent nephrotoxins
 
-::: notes
+::: aside
 These toxicities are the main reason aminoglycosides are used cautiously and why extended-interval dosing was developed. Short courses (3-5 days) significantly reduce risk.
 :::
 
-------------------------------------------------------------------------
+## Nephrotoxicity: mechanism
 
-## Nephrotoxicity: Mechanism
+![](images-aminoglycoside/toxicity.png){fig-align="center" width="800"}
 
-<br>
-
-**Accumulation in proximal tubular cells:**
-
-1.  Aminoglycosides bind to megalin receptor
-2.  Endocytosis into lysosomes
-3.  Lysosomal rupture
-4.  Release of phospholipases
-5.  Tubular cell necrosis
-
-**Typically manifests:**
-
-- After 5-7 days of therapy
-- Non-oliguric AKI
-- Usually reversible
-
-::: notes
+::: aside
 The proximal tubule has the highest concentration of megalin receptors, explaining the selective toxicity. The process is saturable, which is why trough-free periods (extended-interval dosing) reduce toxicity.
 :::
 
-------------------------------------------------------------------------
-
-## Nephrotoxicity: Risk Factors
+## Nephrotoxicity: Risk factors
 
 <br>
 
@@ -759,13 +735,11 @@ The proximal tubule has the highest concentration of megalin receptors, explaini
 - Amphotericin B, vancomycin, NSAIDs
 - IV contrast, cisplatin, cyclosporine
 
-::: notes
+::: aside
 Multiple concurrent nephrotoxins significantly increase risk. The vancomycin-aminoglycoside combination is particularly common and concerning. Consider alternatives when possible.
 :::
 
-------------------------------------------------------------------------
-
-## Preventing Nephrotoxicity
+## Preventing nephrotoxicity
 
 <br>
 
