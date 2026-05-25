@@ -38,7 +38,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 </center>
 
-## Learning Objectives
+## Learning objectives
 
 <br>
 
@@ -78,7 +78,7 @@ By the end of this lecture, you will be able to:
 
 # PART 1: Fundamentals {background-color="#b20e10"}
 
-## Historical Timeline
+## Historical timeline
 
 <br>
 
@@ -155,7 +155,7 @@ This naming convention is useful for remembering the source organism. Both gener
 Streptomycin: Limited availability (TB, plague, tularemia)
 
 ::: aside
-Gentamicin remains most commonly used for synergy. Tobramycin preferred for Pseudomonas. Amikacin reserved for resistant organisms. Plazomicin is newest, designed to evade resistance mechanisms- but not available in EU.
+Gentamicin remains most commonly used for synergy. Tobramycin preferred for *Pseudomonas*. Amikacin reserved for resistant organisms. Plazomicin is newest, designed to evade resistance mechanisms- but not available in EU.
 :::
 
 ## Family of aminoglycosides in clinical use {.smaller}
@@ -170,6 +170,9 @@ Gentamicin remains most commonly used for synergy. Tobramycin preferred for Pseu
 | Paromomycin | Humatin | *S. fradiae* | 1959 | Part of neomycin family |
 | Spectinomycin | Trobicin | *Streptomyces spectabilis* | 1961 | Chemically distinct but closely related to aminoglycosides |
 | Gentamicin | Garamycin | *Micromonospora purpurea* and *Micromonospora echinospora* | 1963 | Roughly equal proportions of gentamicin C₁, C₁ₐ, and enantiomers C₂ and C₂ₐ |
+| Tobramycin | Nebcin | *Streptomyces tenebrarius* | 1967 | 4,6-disubstituted 2-deoxystreptamine; structurally similar to kanamycin B |
+| Amikacin | Amikin | Semi-synthetic derivative of kanamycin A | 1972 | Kanamycin A with L-HABA side chain at N-1 position; confers resistance to most AMEs |
+| Plazomicin | Zemdri | Semi-synthetic derivative of sisomicin | 2018 | Sisomicin with hydroxyaminobutyric acid and hydroxyethyl substituents to evade AMEs |
 
 ## Chemical structure overview
 
@@ -244,7 +247,7 @@ The polycationic nature is critical for both mechanism of action (binding to bac
 **Reason:** Mistranslated membrane proteins cause irreversible damage
 
 ::: aside
-Most ribosomal inhibitors simply stop protein synthesis (bacteriostatic). Aminoglycosides cause the synthesis of actively harmful proteins, leading to rapid cell death.
+Most ribosomal inhibitors simply stop protein synthesis (bacteriostatic). **Aminoglycosides cause the synthesis of actively harmful proteins, leading to rapid cell death.**
 :::
 
 ## Concentration-dependent killing
@@ -309,7 +312,7 @@ The shift from Cmax/MIC to AUC/MIC represents evolving understanding. In practic
 ![](images-aminoglycoside/synergy_aminoglycosides.png){fig-align="center" width="700"}
 
 ::: aside
-The synergy is particularly important for enterococcal infections where neither drug alone is bactericidal. Cell wall damage by ampicillin allows gentamicin access to the ribosome. **Use of aminoglycosides for synergy with anti-staphylococal PCNs increasingly replaced by** dual β-lactam strategies (cefazolin + ceftriaxone, cefazolin + ertapenem, oxacillin + ertapenem) → "seesaw effect" and differential penicillin protein binding.
+The synergy is particularly important for enterococcal infections where neither drug alone is bactericidal. Cell wall damage by ampicillin allows gentamicin access to the ribosome. **Use of aminoglycosides for synergy with anti-staphylococal PCNs is  increasingly replaced by dual β-lactam strategies** (cefazolin + ceftriaxone, cefazolin + ertapenem, oxacillin + ertapenem) → "seesaw effect" and differential penicillin protein binding.
 :::
 
 # PART 2: Clinical Application {background-color="#b20e10"}
@@ -408,7 +411,7 @@ AMEs are most common and typically affect specific agents based on the modificat
 - Infective endocarditis
 
 ::: aside
-Aminoglycosides are rarely used as monotherapy except for uncomplicated UTI. The combination provides broader coverage, synergy, and helps prevent resistance emergence.
+Aminoglycosides are rarely used as monotherapy except for uncomplicated UTI. <br> The combination provides broader coverage, synergy, and helps prevent resistance emergence.
 :::
 
 ## Additional clinical uses
@@ -790,7 +793,9 @@ Different aminoglycosides have different propensities for cochlear vs vestibular
 
 <br>
 
-![](images-aminoglycoside/ototoxicity.png){fig-align="center" width="900"}
+![](images-aminoglycoside/ototoxicity.png){fig-align="center" width="650"}
+
+<br> <br> <br>
 
 ::: aside
 Unlike nephrotoxicity, ototoxicity may be irreversible because cochlear hair cells cannot regenerate. This is why it's so important to identify patients at risk and minimize exposure.
